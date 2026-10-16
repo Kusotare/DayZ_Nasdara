@@ -44,4 +44,14 @@ Example messages:
     </message>
     -->
 
+    <message>
+        <deadline>1438</deadline>
+    	<text>Server will restart in approximately #tmin minute(s)</text>
+	</message>
+
+    <message>
+        <onconnect>1</onconnect>
+        <text>Welcome to #name.  Vanilla feel with a little extra danger... Stay cool out there!</text>
+    </message>
+
 </messages>
