@@ -3,25 +3,26 @@
   "GeneralData":
   {
     "disableBaseDamage": false,
-    "disableContainerDamage": false,
+    "disableContainerDamage": true,
     "disableRespawnDialog": false,
-    "disableRespawnInUnconsciousness": false
+    "disableRespawnInUnconsciousness": true
   },
   "PlayerData":
   {
     "disablePersonalLight": true,
+    "spawnGearPresetFiles": [],
     "StaminaData": {
-      "sprintStaminaModifierErc": 1.0,
-      "sprintStaminaModifierCro": 1.0,
+      "sprintStaminaModifierErc": 0.25,
+      "sprintStaminaModifierCro": 0.25,
       "staminaWeightLimitThreshold": 6000.0,
       "staminaMax": 100.0,
-      "staminaKgToStaminaPercentPenalty": 1.75,
+      "staminaKgToStaminaPercentPenalty": 1.25,
       "staminaMinCap": 5.0,
-      "sprintSwimmingStaminaModifier": 1.0,
-      "sprintLadderStaminaModifier": 1.0,
-      "meleeStaminaModifier": 1.0,
-      "obstacleTraversalStaminaModifier": 1.0,
-      "holdBreathStaminaModifier": 1.0
+      "sprintSwimmingStaminaModifier": 0.25,
+      "sprintLadderStaminaModifier": 0.25,
+      "meleeStaminaModifier": 0.25,
+      "obstacleTraversalStaminaModifier": 0.25,
+      "holdBreathStaminaModifier": 0.25
     },
     "ShockHandlingData":
 	{
@@ -32,10 +33,10 @@
     "MovementData":
 	{
       "timeToStrafeJog": 0.1,
-      "rotationSpeedJog": 0.15,
-      "timeToSprint": 0.45,
-      "timeToStrafeSprint": 0.3,
-      "rotationSpeedSprint": 0.15,
+      "rotationSpeedJog": 0.1,
+      "timeToSprint": 0.1,
+      "timeToStrafeSprint": 0.1,
+      "rotationSpeedSprint": 0.1,
       "allowStaminaAffectInertia": true
     },
     "DrowningData":
@@ -62,16 +63,16 @@
   {
     "HologramData":
 	{
-      "disableIsCollidingBBoxCheck": false,
-      "disableIsCollidingPlayerCheck": false,
-      "disableIsClippingRoofCheck": false,
-      "disableIsBaseViableCheck": false,
+      "disableIsCollidingBBoxCheck": true,
+      "disableIsCollidingPlayerCheck": true,
+      "disableIsClippingRoofCheck": true,
+      "disableIsBaseViableCheck": true,
       "disableIsCollidingGPlotCheck": false,
-      "disableIsCollidingAngleCheck": false,
-      "disableIsPlacementPermittedCheck": false,
-      "disableHeightPlacementCheck": false,
+      "disableIsCollidingAngleCheck": true,
+      "disableIsPlacementPermittedCheck": true,
+      "disableHeightPlacementCheck": true,
       "disableIsUnderwaterCheck": false,
-      "disableIsInTerrainCheck": false,
+      "disableIsInTerrainCheck": true,
       "disableColdAreaPlacementCheck": true,
       "disallowedTypesInUnderground": [
         "FenceKit",
@@ -81,8 +82,8 @@
     },
     "ConstructionData":
 	{
-      "disablePerformRoofCheck": false,
-      "disableIsCollidingCheck": false,
+      "disablePerformRoofCheck": true,
+      "disableIsCollidingCheck": true,
       "disableDistanceCheck": false,
       "disableItemFalling": false,
       "disableDropAttachmentsOnFall": false,
@@ -113,7 +114,7 @@
   },
   "VehicleData":
   {
-    "boatDecayMultiplier": 1,
+    "boatDecayMultiplier": 0.25,
     "canDetachAttachedCarWheels": true,
     "canDamageAttachedCarWheels": true,
     "canDetachAttachedBikeWheels": true,
