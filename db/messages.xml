@@ -54,4 +54,9 @@ Example messages:
         <text>Welcome to #name.  Vanilla feel with a little extra danger... Stay cool out there!</text>
     </message>
 
+    <message>
+        <onconnect>2</onconnect>
+        <text>Not required to play, but join the Discord for additional info and benefits: https://discord.gg/qKuWu5N6ar</text>
+    </message>
+
 </messages>
