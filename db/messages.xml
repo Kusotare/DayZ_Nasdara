@@ -45,7 +45,7 @@ Example messages:
     -->
 
     <message>
-        <deadline>1438</deadline>
+        <deadline>719</deadline>
     	<text>Server will restart in approximately #tmin minute(s)</text>
 	</message>
 
